@@ -20,6 +20,9 @@ public class JoinService {
 
     public void joinProcess(JoinDTO joinDTO) {
 
+        System.out.println("joinDTO = " + joinDTO.getUsername());
+        System.out.println("joinDTO = " + joinDTO.getPassword());
+
         String username = joinDTO.getUsername();
         String password = joinDTO.getPassword();
 
